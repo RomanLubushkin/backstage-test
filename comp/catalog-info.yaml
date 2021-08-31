@@ -6,4 +6,5 @@ metadata:
 spec:
   type: service
   owner: devops-team
+  lifecycle: production
 

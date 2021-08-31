@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: web-gpi-cache
+  description: Stores cached HTML pages, compressed (br, gzip) or uncompressed format, if client doesn't support compression.
+spec:
+  type: database
+  owner: devops-team
+

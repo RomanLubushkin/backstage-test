@@ -7,4 +7,5 @@ spec:
   type: service
   owner: devops-team
   lifecycle: production
+  dependsOn: ['resource:web-gpi-cache']
 
